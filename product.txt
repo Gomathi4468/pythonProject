@@ -1,0 +1,2 @@
+sugar 6 40
+wheat 5 60
