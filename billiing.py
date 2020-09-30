@@ -16,7 +16,7 @@ product_price.grid(row=2,column=1)
 def search():
     pname=product_name.get()
     #pquantity=product_quantity.get()
-    f=open("admin.txt","r")
+    f=open("produc.txt","r")
     for i in f:
         if(i.split(" ")[0]==pname):
             messagebox.showinfo("search","product is available")
